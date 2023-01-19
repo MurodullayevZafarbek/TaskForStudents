@@ -1,0 +1,102 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+.home {
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 100px;
+   padding: 50px 0;
+}
+
+.home table {
+   width: 80%;
+   border-collapse: collapse;
+}
+
+.home table tr:first-child {
+   background-color: #01987A;
+   color: #fff;
+}
+
+.home table tr:first-child td {
+   font-weight: 700;
+}
+
+.home table tr:last-child,
+.home table tr.end {
+   border-bottom: 3px solid #01987A;
+}
+
+.home table tr:nth-child(2n+3) {
+   background-color: #F3F3F3;
+   color: #000;
+}
+
+.home table tr:nth-child(2n+2) {
+   color: #595858;
+}
+
+.home table tr {
+   border-bottom: 1px solid #DEDEDE;
+}
+
+
+.home table tr:first-child td:first-child {
+   border-radius: 10px 0 0 0;
+}
+
+.home table tr:first-child td:last-child {
+   border-radius: 0 10px 0 0;
+}
+
+.home table tr td:first-child {
+   max-width: 50px;
+}
+
+.home table tr td:nth-child(2) {
+   max-width: 80px;
+   overflow: hidden;
+}
+
+.home table tr td:nth-child(3) {
+   max-width: 100px;
+   overflow: hidden;
+}
+
+.home table tr td:last-child {
+   max-width: 50px;
+}
+
+.home table tr td {
+   padding: 6px 12px;
+   font-size: 18px;
+   max-width: 200px;
+   line-height: 30px;
+}
+
+@media screen and (max-width:720px) {
+   .home table {
+      width: 570px;
+   }
+
+   .home table tr td {
+      font-size: 14px;
+      line-height: 14px;
+   }
+
+   .home table tr td img {
+      height: 50px;
+   }
+
+   .home table tr td a {
+      font-size: 12px;
+   }
+}
