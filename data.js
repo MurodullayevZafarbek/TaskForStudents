@@ -18,11 +18,10 @@ let dataTab1 = [
     new Route("", "video hr p", "./1-dars/3.jpg"),
     new Route("", "ul li type", "./1-dars/4.jpg"),
     new Route("", "form ...", "./1-dars/5.png"),
-    new Route("", "form ...", "./1-dars/6.png"),
+    new Route("", "form ...", "./1-dars/6.jpg"),
     new Route("", "form ...", "./1-dars/7.jpg"),
     new Route("", "Table tr td b", "./1-dars/8.png"),
     new Route("", "Table tr td b", "./1-dars/9.jpg"),
-    new Route("", "Table tr td b", "./1-dars/10.jpg"),
 ]
 
 let dataTab2 = [
